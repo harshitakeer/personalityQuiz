@@ -1,0 +1,63 @@
+/* STYLE SECTIONING TAGS */
+body {
+  font-family: courier;
+  color: #675f5f;
+  margin: 2em;
+  background: #cdf4cd;
+}
+
+/* STYLE TEXT */
+h1 {
+  font-weight: 900;
+  font-family: cursive ;
+  color: #db618c;
+}
+
+h2 {
+  margin-top: 2em;
+  font-family: courier;
+  font-size: 20px;
+  color: #675f5f;
+}
+
+/* STYLE FLEX CONTAINER */
+.question {
+  display: flex;
+  /* uncomment the next line to center the questions and answers */
+  /* justify-content: center; */
+  margin-top: 2em;
+}
+  
+/* STYLE FLEX ITEM */
+.answer-choice {
+  margin: 5px;
+}
+
+/* STYLE IMAGES */
+.answer-choice img {
+  height: 10em;
+}
+
+/* STYLE BUTTON */
+button { 
+  margin-top: 5px;
+  font-family: courier; /* Custom font */
+  font-size: 16px; /* Font size */
+  color: white; /* Text color */
+  background-color: #db618c; /* Background color */
+  border: none; /* Removes the border */
+  border-radius: 4px; /* Rounded corners */
+  padding: 10px 20px; /* Top & bottom, Left & right padding */
+  text-align: center; /* Centered text */
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+  transition-duration: 0.4s;
+}
+
+button:active {
+  background-color: #dbdb61; /* Change background color */
+  box-shadow: 0 5px #666; /* Add a shadow to give a "pressed" effect */
+  transform: translateY(4px); /* Slightly move the button down */
+}
